@@ -195,7 +195,7 @@ BCRAFTING.CONFIG.Weapons.Items[15] = {
     Description = "",
     Model = "models/Items/BoxMRounds.mdl",
     Resource = { ["Gunpowder"] = 2, ["Metal"] = 1 },
-    WeaponClass = "cw_ammo_9x19"
+    AmmoClass = "cw_ammo_9x19"
 }
 
 BCRAFTING.CONFIG.Weapons.Items[16] = {
@@ -203,7 +203,7 @@ BCRAFTING.CONFIG.Weapons.Items[16] = {
     Description = "",
     Model = "models/Items/BoxMRounds.mdl",
     Resource = { ["Gunpowder"] = 2, ["Metal"] = 1 },
-    WeaponClass = "cw_ammo_9x17"
+    AmmoClass = "cw_ammo_9x17"
 }
 
 BCRAFTING.CONFIG.Weapons.Items[17] = {
@@ -211,7 +211,7 @@ BCRAFTING.CONFIG.Weapons.Items[17] = {
     Description = "",
     Model = "models/Items/BoxMRounds.mdl",
     Resource = { ["Gunpowder"] = 2, ["Metal"] = 1 },
-    WeaponClass = "cw_ammo_45acp"
+    AmmoClass = "cw_ammo_45acp"
 }
 
 BCRAFTING.CONFIG.Weapons.Items[18] = {
@@ -219,7 +219,7 @@ BCRAFTING.CONFIG.Weapons.Items[18] = {
     Description = "",
     Model = "models/Items/BoxMRounds.mdl",
     Resource = { ["Gunpowder"] = 3, ["Metal"] = 1 },
-    WeaponClass = "cw_ammo_545x39"
+    AmmoClass = "cw_ammo_545x39"
 }
 
 BCRAFTING.CONFIG.Weapons.Items[19] = {
@@ -227,7 +227,7 @@ BCRAFTING.CONFIG.Weapons.Items[19] = {
     Description = "",
     Model = "models/Items/BoxMRounds.mdl",
     Resource = { ["Gunpowder"] = 3, ["Metal"] = 1 },
-    WeaponClass = "cw_ammo_44magnum"
+    AmmoClass = "cw_ammo_44magnum"
 }
 
 BCRAFTING.CONFIG.Weapons.Items[20] = {
@@ -235,7 +235,7 @@ BCRAFTING.CONFIG.Weapons.Items[20] = {
     Description = "",
     Model = "models/Items/BoxMRounds.mdl",
     Resource = { ["Gunpowder"] = 3, ["Metal"] = 1 },
-    WeaponClass = "cw_ammo_12gauge"
+    AmmoClass = "cw_ammo_12gauge"
 }
 
 BCRAFTING.CONFIG.Weapons.Items[21] = {
@@ -243,7 +243,7 @@ BCRAFTING.CONFIG.Weapons.Items[21] = {
     Description = "",
     Model = "models/Items/BoxMRounds.mdl",
     Resource = { ["Gunpowder"] = 3, ["Metal"] = 1 },
-    WeaponClass = "cw_ammo_556x45"
+    AmmoClass = "cw_ammo_556x45"
 }
 
 BCRAFTING.CONFIG.Weapons.Items[22] = {
@@ -251,7 +251,7 @@ BCRAFTING.CONFIG.Weapons.Items[22] = {
     Description = "",
     Model = "models/Items/BoxMRounds.mdl",
     Resource = { ["Gunpowder"] = 3, ["Metal"] = 1 },
-    WeaponClass = "cw_ammo_50ae"
+    AmmoClass = "cw_ammo_50ae"
 }
 
 BCRAFTING.CONFIG.Weapons.Items[23] = {
@@ -259,7 +259,7 @@ BCRAFTING.CONFIG.Weapons.Items[23] = {
     Description = "",
     Model = "models/Items/BoxMRounds.mdl",
     Resource = { ["Gunpowder"] = 4, ["Metal"] = 1 },
-    WeaponClass = "cw_ammo_762x51"
+    AmmoClass = "cw_ammo_762x51"
 }
 
 BCRAFTING.CONFIG.Weapons.Items[24] = {
