@@ -9,7 +9,7 @@ function ENT:Initialize()
 	self:SetMoveType( MOVETYPE_VPHYSICS )
 	self:SetSolid( SOLID_VPHYSICS )
 	
-    local phys = self:GetPhysicsObject()
+	local phys = self:GetPhysicsObject()
 	if (phys:IsValid()) then
 		phys:Wake()
 	end
@@ -75,6 +75,10 @@ net.Receive( "bCrafting_Net_CraftItem", function( len, ply )
 
 		if( Item.WeaponClass ) then
 			BCRAFTING.SpawnItem( Bench, Item.WeaponClass )
+		end
+
+		if( Item.AmmoClass ) then
+			BCRAFTING.SpawnAmmo( Bench, Item.AmmoClass )
 		end
 
 		BCRAFTING.Notify( ply, "You have crafted the item '" .. Item.Name .. "'. It has been dropped on the workbench." )

@@ -110,6 +110,18 @@ if( SERVER ) then
         weapon.nodupe = true
         weapon:Spawn()
     end
+
+    function BCRAFTING.SpawnAmmo( bench, class )
+        local ammo = ents.Create(class)
+
+        local ammoAng = bench:GetAngles()
+        local ammoPos = bench:GetAngles():Up() * 60
+
+        ammo:SetPos(bench:GetPos() + ammoPos)
+        ammo:SetAngles(ammoAng)
+        ammo.nodupe = true
+        ammo:Spawn()
+    end
 elseif( CLIENT ) then
     net.Receive( "bCrafting_Net_Notify", function()
         local Message = net.ReadString()
