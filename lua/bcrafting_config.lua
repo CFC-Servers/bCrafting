@@ -267,7 +267,7 @@ BCRAFTING.CONFIG.Weapons.Items[24] = {
     Description = "",
     Model = "models/Items/BoxSRounds.mdl",
     Resource = { ["Plastic"] = 2, ["Metal"] = 1, ["Glass"] = 1 },
-    WeaponClass = "cw_attpack_sights_cqb"
+    AmmoClass = "cw_attpack_sights_cqb"
 }
 
 BCRAFTING.CONFIG.Weapons.Items[25] = {
@@ -275,7 +275,7 @@ BCRAFTING.CONFIG.Weapons.Items[25] = {
     Description = "",
     Model = "models/Items/BoxSRounds.mdl",
     Resource = { ["Plastic"] = 1, ["Metal"] = 2, ["Glass"] = 2 },
-    WeaponClass = "cw_attpack_sights_midrange"
+    AmmoClass = "cw_attpack_sights_midrange"
 }
 
 BCRAFTING.CONFIG.Weapons.Items[26] = {
@@ -283,7 +283,7 @@ BCRAFTING.CONFIG.Weapons.Items[26] = {
     Description = "",
     Model = "models/Items/BoxSRounds.mdl",
     Resource = { ["Plastic"] = 1, ["Metal"] = 3, ["Glass"] = 3 },
-    WeaponClass = "cw_attpack_sights_longrange"
+    AmmoClass = "cw_attpack_sights_longrange"
 }
 
 BCRAFTING.CONFIG.Weapons.Items[27] = {
@@ -291,7 +291,7 @@ BCRAFTING.CONFIG.Weapons.Items[27] = {
     Description = "",
     Model = "models/Items/BoxSRounds.mdl",
     Resource = { ["Plastic"] = 2, ["Metal"] = 3, ["Glass"] = 4 },
-    WeaponClass = "cw_attpack_sights_sniper"
+    AmmoClass = "cw_attpack_sights_sniper"
 }
 
 BCRAFTING.CONFIG.Weapons.Items[28] = {
@@ -299,5 +299,5 @@ BCRAFTING.CONFIG.Weapons.Items[28] = {
     Description = "",
     Model = "models/Items/BoxSRounds.mdl",
     Resource = { ["Plastic"] = 4, ["Metal"] = 4},
-    WeaponClass = "cw_attpack_suppressors"
+    AmmoClass = "cw_attpack_suppressors"
 }
