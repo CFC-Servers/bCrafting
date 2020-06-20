@@ -73,6 +73,10 @@ net.Receive( "bCrafting_Net_WCraftItem", function( len, ply )
 			BCRAFTING.SpawnItem( Bench, Item.WeaponClass )
 		end
 
+		if( Item.AmmoClass ) then
+			BCRAFTING.SpawnAmmo( Bench, Item.AmmoClass )
+		end
+
 		BCRAFTING.Notify( ply, "You have crafted the item '" .. Item.Name .. "'. It has been dropped on the workbench." )
 	else
 		BCRAFTING.Notify( ply, "You don't have enough resources to craft this item!" )
